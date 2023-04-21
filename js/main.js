@@ -14,6 +14,7 @@ function add(num1,num2) {
     let sum = num1 + num2;
     return sum;
 }
+add(firstNumber, secondNumber);
 let par = document.querySelector('p');
 par.textContent = 'dowolny tekst';
 console.log(par);
